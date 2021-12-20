@@ -4,9 +4,6 @@ footer {
     text-align: center;
 }
 
-nav:hover .m-c a {
-    
-}
 /* colors */
 .bgc-blueish {
     background: linear-gradient(0deg, rgba(31,20,204,1) 0%, rgba(9,9,121,1) 49%, rgba(10,56,65,1) 100%);
@@ -16,14 +13,9 @@ nav:hover .m-c a {
     background: linear-gradient(180deg, rgba(31,20,204,1) 0%, rgba(9,9,121,1) 49%, rgba(10,56,65,1) 100%);
 }
 
-.bgc-greyish {
-    background-color: rgb(50, 61, 50);
-}
-
 .c-white {
     color: whitesmoke;
 }
-
 
 /* classes */
 .a {
@@ -68,8 +60,16 @@ nav:hover .m-c a {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.fg-1 {
+    flex-grow: 1;
+}
+
+.fg-2 {
+    flex: 3;
+}
+
 .fl {
-    flex: 45%
+    flex: 45%;
 }
 
 .fl-2 {
@@ -78,10 +78,6 @@ nav:hover .m-c a {
 
 .fw-w {
     flex-wrap: wrap;
-}
-
-.fw-900 {
-    font-weight: 900;
 }
 
 .fz-1 {
@@ -124,15 +120,6 @@ nav:hover .m-c a {
     padding: 2rem;
 }
 
-.pl-1 {
-    padding-left: 1.5rem;
-}
-
-
-
-.p-r {
-    position: relative;
-}
 .pr {
     padding-right: 0.5rem;
 }
@@ -154,13 +141,6 @@ nav:hover .m-c a {
     text-align: justify;
 }
 
-.ta-r {
-    text-align: right;
-}
-
-.w-30 {
-    width: 30%;
-}
 
 .w-60 {
     width: 60%;
@@ -230,8 +210,6 @@ nav:hover .m-c a {
         width: 60%;
 
     }
-
-
 }
 
 
@@ -254,10 +232,6 @@ nav:hover .m-c a {
         font-size: 2.75rem;
     }
 
-    .pl-1\@lrg {
-        padding-left: 5rem;
-    }
-
     .pl-2\@lrg {
         padding-left: 4rem;
     }
@@ -276,10 +250,6 @@ nav:hover .m-c a {
     
     .pt-6\@lrg {
         padding-top: 6rem;
-    }
-
-    .w90\@lrg {
-        width: 90%;
     }
 
     .w100\@lrg {

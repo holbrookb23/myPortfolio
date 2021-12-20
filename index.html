@@ -9,12 +9,11 @@
     <title>Brian's Portfolio</title>
 </head>
 <body class="mh-100 mw-100">
-    <!-- change color scheme -->
+    <!-- header with simple nav -->
     <header class="bgc-blueish df jc-sb z-1">
         <h1 class="c-white p ff fz-1">Brian Holbrook</h1>
     
-        <!--on lrg fix spacing, size, and color of the links-->
-        <!--on small fix hover bgc and click bgc -->
+        
         <nav class="p">
             <button class="bn bg-n dn@lrg"><img src="./assets/img/icons/outline_menu_black_24dp.png" alt="menu button"></button>
             <div class="m-c d@lrg pr">
@@ -25,14 +24,14 @@
         </nav>
     </header>
 
-    <main class="">
+    <main>
         <!-- about me with photo, cascading title and short description -->
         <section class="p" id="aboutme">
             <div class="df fw-w pt-2 p@lrg">
                 <div class="fl-2 ta-c">
                     <img class="w-60" src="assets/img/gandb1.jpg" alt="me and my girlfriend" >
                 </div>
-                <div class=" a fd-c fl-2 ta-c@sml">
+                <div class="a fd-c fl-2 ta-c@sml">
                     <div class="ws-nw pt-6@lrg">
                         <h1 class="fz-1 fz-1@lrg">Hi, I'm Brian</h1>
                     </div>
@@ -48,8 +47,8 @@
                  development less than a year ago, but realized I should go to school to get more in-depth fundamentals of learning a coding language.
                  So, I'm currently a student at Northwestern's web development bootcamp where I am learning the skills of html, css, and javascript.
                  this journey has been nothing but incredible through out and I would love to keep building my skils at your company next.
-                 Here is my resume for your consideration:
-                 <!-- add resume link -->
+                 Here is my resume for your consideration: 
+                 <a href="./assets/img/pdf-1.pdf" target="_blank">My Resume</a>
             </p>
             
         </section>
@@ -63,40 +62,49 @@
                 <a href="https://github.com/holbrookb23" target="_blank"><img src="./assets/img/icons/icons8-github-48.png" alt="Github Logo"></a>
             </div>
         </section>
+        <!-- My work with one project and several placeholders -->
         <section class="pt-2" id="work">
             <h2 class="fz-1 ta-c">My Work</h2>
             <div class="df fw-w g m-2 p fd-c@sml m-3@sml">
-                <!--make imgs links and add titles to each -->
-                <!-- round the border, grow img on hover, inline glow shadow -->
-                <!-- add cool background color -->
-                <div class="fl ta-c">
+                <!-- placeholder -->
+                <div onclick="alert('this is a placeholder')" class="fl fg-1 ta-c">
                     <img class="bd-2 w-60@sml w100@lrg" src="./assets/img/projects/jsCalculator.jpg" alt="a calculator made with javascript">
                     <div>
-                        <h4 class="">JS Calculator</h4>
+                        <h4>JS Calculator</h4>
                     </div>
                 </div>
-                <div class="fl ta-c">
+                <!-- placeholder -->
+                <div onclick="alert('This is a placeholder')" class="fl fg-1 ta-c">
                     <img class="bd-2 w-60@sml w100@lrg" src="./assets/img/projects/Simple-Weather-App.jpg" alt="a weather app made with javascript">
                     <div>
-                        <h4 class="">JS Weather App</h4>
+                        <h4>JS Weather App</h4>
                     </div>
                 </div>
-                <div class="fl ta-c">
+                <!-- placeholder -->
+                <div onclick="alert('This is a placeholder')" class="fl fg-1 ta-c">
                     <img class="bd-2 w-60@sml w100@lrg" src="./assets/img/projects/ecommerce shopping cart.png" alt="an E-commerce shopping cart">
                     <div>
-                        <h4 class="">JS Shopping Cart</h4>
+                        <h4>JS Shopping Cart</h4>
                     </div>
                 </div>
-                <div class="fl ta-c">
+                <!-- placeholder -->
+                <div onclick="alert('This is a placeholder')" class="fl fg-1 ta-c">
                     <img class="bd-2 w-60@sml w100@lrg" src="./assets/img/projects/jsTicTacToe.png" alt="a game of tic-tac-toe made with javascript">
                     <div>
-                        <h4 class="">JS Tic-Tac-Toe</h4>
+                        <h4>JS Tic-Tac-Toe</h4>
+                    </div>
+                </div>
+                <!-- working project -->
+                <div class="fl fg-2 ta-c">
+                    <a href="https://holbrookb23.github.io/Rock-Paper-scissors-no-UI-/" target="_blank"><img class="bd-2 w-60@sml w100@lrg" src="./assets/img/projects/holbrookb23.github.io_Rock-Paper-scissors-no-UI-_.png" alt="rock, paper, scissors made with javascript"></a>
+                    <div>
+                        <h4>JS Rock Paper Scissors(no UI)</h4>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <!-- padding and background color -->
+    <!-- a minor footer -->
     <footer class="bgc-blueish2 c-white p-2">Thanks For visiting!</footer>
 </body>
 </html>
